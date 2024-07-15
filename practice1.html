@@ -9,12 +9,29 @@
 </head>
 
 <body>
- 
+
     <div class="practice1">
         第1課 ── 基本的函數操作、onclick 事件
         <button class="btn" onclick="jumpalt1()">我要訂購</button>
         <button class="btn" onclick="jumpalt2()">認識工廠</button>
-
+    </div>
+    <div class="practice2">
+        第2課 ── 基本的變數操作、從 html 取得內容
+        <div class="textbox">
+            <h3><span>線上下單區</span></h3>
+            <p>請輸入以下資訊，以完成訂購</p>
+        </div>
+        <p>
+            名字: <input id="order_name" type="text">
+        </p>
+        <p>
+            電話: <input id="order_num" type="text">
+        </p>
+        <p>
+            email: <input id="order_mail" type="text">
+        </p>
+        <button class="btn" onclick="order_info()">送出
+        </button>
     </div>
 
 
