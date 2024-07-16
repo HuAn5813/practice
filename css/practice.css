@@ -1,53 +1,48 @@
+* {
+  font-family: "Noto Sans Tc";
+  font-size: 16px;
+}
+
 .practice1 .btn {
-    font-family: 'Noto Sans Tc';
-    font-size: 16px;
-    overflow: hidden;
-    padding: 10px 20px;
-    margin: 20px 0px;
-    border-radius: 20px;
-    border: 0px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 5px 0px #54a4c9;
-    transition: .2s all linear;
-    cursor: pointer;
-    display: block;
+  font-family: "Noto Sans Tc";
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 20px;
+  margin: 20px 0px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px 0px #54a4c9;
+  transition: 0.2s all linear;
+  cursor: pointer;
+  display: block;
 }
-
 .practice1 .btn:hover {
-    background-color: #54a4c9;
-    color: #FFF;
-}
-
-.practice2,
-.practice1 {
-    font-family: 'Noto Sans Tc';
-    font-size: 16px;
-
+  background-color: #54a4c9;
+  color: #FFF;
 }
 
 .practice2 h3 span {
-    background-image: linear-gradient(180deg, #34849f 50%, #b0d6ff 100%);
-    color: transparent;
-    background-clip: text;
+  background-image: linear-gradient(180deg, #34849f 50%, #b0d6ff 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
 }
-
 .practice2 p {
-    color: #094053;
-    font-size: 14px;
+  color: #094053;
+  font-size: 14px;
 }
-
 .practice2 .btn {
-    font-size: 14px;
-    padding: 0px 10px;
-    border-radius: 2px;
-    border: 0px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 0px 1px #6c6c6c;
-    transition: practice2 .3s all linear;
-    cursor: pointer;
+  font-size: 14px;
+  padding: 0px 10px;
+  border-radius: 2px;
+  border: 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 0px 1px #6c6c6c;
+  transition: 0.3s all linear;
+  cursor: pointer;
 }
-
 .practice2 .btn:hover {
-    background-color: #6c6c6c;
-    color: #FFF;
-}
+  background-color: #6c6c6c;
+  color: #FFF;
+}/*# sourceMappingURL=practice.css.map */
