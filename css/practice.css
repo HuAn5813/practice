@@ -3,6 +3,23 @@
   font-size: 16px;
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #edf2ff;
+  margin: 0px 10vw;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.practice1 {
+  padding-bottom: 50px;
+}
+.practice1 .wrap {
+  display: flex;
+  justify-content: space-around;
+}
 .practice1 .btn {
   font-family: "Noto Sans Tc";
   font-size: 16px;
@@ -22,6 +39,9 @@
   color: #FFF;
 }
 
+.practice2 {
+  padding-bottom: 50px;
+}
 .practice2 h3 span {
   background-image: linear-gradient(180deg, #34849f 50%, #b0d6ff 100%);
   color: transparent;
@@ -45,4 +65,8 @@
 .practice2 .btn:hover {
   background-color: #6c6c6c;
   color: #FFF;
+}
+
+.practice3 {
+  padding-bottom: 50px;
 }/*# sourceMappingURL=practice.css.map */
