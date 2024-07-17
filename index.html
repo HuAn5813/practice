@@ -25,14 +25,21 @@
             </div>
             <label for="product_class">商品分類</label>
             <select id="product_class">
-                <option value="shirt">男裝</option>
-                <option value="pants">女裝</option>
+                <optgroup label="服裝分類">
+                    <option value="men">男裝</option>
+                    <option value="women">女裝</option>
+                    <option value="kids">童裝</option>
+                </optgroup>
             </select>
             <label for="product_type">商品類型</label>
             <select id="product_type">
+                <optgroup label="服裝類型">
                 <option value="shirt">上衣</option>
                 <option value="pants">褲子</option>
-                <option value="other">其他</option>
+            </optgroup>
+            <optgroup label="其他">
+            <option value="other">其他</option>
+        </optgroup>
             </select>
             <p>
                 名字: <input id="member_name" type="text">

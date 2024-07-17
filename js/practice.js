@@ -31,10 +31,10 @@ function order_info() {
 
     var prtype_menu = document.getElementById('product_type');
     var prtype_num = prtype_menu.selectedIndex;
+    var prtype_value = prtype_menu.options[prtype_num].value;
     var prtype_text = prtype_menu.options[prtype_num].text;
-    document.getElementById('order_class').textContent = prclass_text;
-    document.getElementById('order_type').textContent = prtype_text;
-
+    document.getElementById('order_class').textContent = prclass_text + prclass_value;
+    document.getElementById('order_type').textContent = prtype_text + prtype_value;
 
 }
 
