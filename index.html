@@ -11,18 +11,29 @@
 <body>
     <div class="page">
         <div class="practice1">
-           <span class="lititle">第1課 ── 基本的函數操作、onclick 事件</span>
+            <span class="lititle">第1課 ── 基本的函數操作、onclick 事件</span>
             <div class="wrap">
                 <button class="btn" onclick="jumpalt1()">我要訂購</button>
                 <button class="btn" onclick="jumpalt2()">認識工廠</button>
             </div>
         </div>
         <div class="practice2">
-           <span class="lititle">第2課 ── 基本的變數操作、從 html 取得內容</span>
+            <span class="lititle">第2課 ── 基本的變數操作、從 html 取得內容</span>
             <div class="textbox">
                 <h3><span>線上下單區</span></h3>
                 <p>請輸入以下資訊，以完成訂購</p>
             </div>
+            <label for="product_class">商品分類</label>
+            <select id="product_class">
+                <option value="shirt">男裝</option>
+                <option value="pants">女裝</option>
+            </select>
+            <label for="product_type">商品類型</label>
+            <select id="product_type">
+                <option value="shirt">上衣</option>
+                <option value="pants">褲子</option>
+                <option value="other">其他</option>
+            </select>
             <p>
                 名字: <input id="member_name" type="text">
             </p>
@@ -36,7 +47,7 @@
             </button>
         </div>
         <div class="practice3">
-           <span class="lititle">第3課 ── 修改 html 的內容</span>
+            <span class="lititle">第3課 ── 修改 html 的內容</span>
             <div class="textbox">
                 <h3>訂購資訊</h3>
             </div>
@@ -49,8 +60,17 @@
             <p>
                 email: <span id="order_mail">目前為預設</span>
             </p>
+            <p>
+                商品分類: <span id="order_class">目前為預設</span>
+            </p>
+            <p>
+                商品類型: <span id="order_type">目前為預設</span>
+            </p>
         </div>
     </div>
+
+
+
 
 
     <script src="./js/practice.js"></script>

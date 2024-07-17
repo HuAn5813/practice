@@ -22,5 +22,19 @@ function order_info() {
     document.getElementById('order_phone').textContent = phone;
     document.getElementById('order_mail').textContent = mail;
 
+    //practice4
+    var prclass_menu = document.getElementById('product_class');    //先取得選單元素
+    var prclass_num = prclass_menu.selectedIndex;    //.selectedIndex屬性，用來表示目前選中的索引(陣列第幾項)
+    var prclass_value = prclass_menu.options[prclass_num].value;    //.options屬性，用來表示HTML裡的options元素，並且會是一個陣列
+    //這段意思是，利用options屬性取得prclass_menu這個選單元素中的<options>元素，並加上[目前選中的索引]，用.value取得該索引的值(在HTML設定好的value)
+    var prclass_text = prclass_menu.options[prclass_num].text;    //.text屬性，用來表示HTML裡的文字內容
+
+    var prtype_menu = document.getElementById('product_type');
+    var prtype_num = prtype_menu.selectedIndex;
+    var prtype_text = prtype_menu.options[prtype_num].text;
+    document.getElementById('order_class').textContent = prclass_text;
+    document.getElementById('order_type').textContent = prtype_text;
+
+
 }
 
